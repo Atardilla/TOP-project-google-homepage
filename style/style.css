@@ -1,0 +1,147 @@
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    color: #666;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+}
+
+.header, .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header{
+    height: 60px;
+}
+
+.hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign-in{
+    background: #4386f9;
+    color: white;
+    border-radius: 1px;
+    padding: 5px;
+}
+.sign-in:hover{
+    cursor: default;
+}
+
+.header-left, .header-right{
+    margin: 0px 15px 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 22vh;
+    width: 100vw;
+}
+
+.search-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 30px;
+    width: 584px;
+}
+
+.search-bar:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    box-shadow: 0px 3px 20px -10px rgb( 100, 100, 100);
+}
+
+.search-icon, .mic-button{
+    width: 24px;
+    height: 24px;
+    color: #9aa0a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0px;
+}
+
+.mic-button:hover{
+    cursor: pointer;
+}
+
+.search-box{
+    flex-grow: 2;
+    border: none;
+    cursor: text;
+}
+
+
+button{
+    margin: 30px 6px;
+    background: #f4f4f4;
+    border: none;
+    padding: 10px 17px;
+    color: #5f6368;
+    border-radius: 4px;
+    border: 1px solid #f4f4f4;
+}
+
+button:hover{
+    background: #f4f4f4;
+    border: 1px solid #5f6368;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #f4f4f4;
+
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ccc;
+}
+
+
+
+.footer{
+    background-color: #f2f2f2;
+}

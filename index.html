@@ -3,23 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
+  <link rel="stylesheet" href="style/ErinMeyerCssReset.css">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://kit.fontawesome.com/022c62a2f2.js" crossorigin="anonymous"></script>
+</head>
 
 <body>
-    <header>
+    <header class='header'>
 
         <div class='header-left'>
             <ul class='header-left-ul'>
-              <li>About</li>
-              <li>Store</li>
+              <li class='hover'>About</li>
+              <li class='hover'>Store</li>
             </ul>
         </div>
 
         <div class='header-right'>
           <ul class='header-right-ul'>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>3x3 LOGO</li>
+            <li class='hover'>Gmail</li>
+            <li class='hover'>Images</li>
+            <li class='hover'><i class="fas fa-th"></i></li>
             <li><botton class='sign-in'>Sign in</botton></li>
           </ul>
         </div>
@@ -28,20 +31,30 @@
 
 
     <main class='main'>
-
+      
         <div class='google-logo'>
           <img src='images/googlelogo_color_272x92dp.png' alt='clasic google logo'>
         </div>
 
-        <form class='searchbar'>
-            <input type='text'>
+        <form class='search-block'>
+            
+            <div class='search-bar'>
+                <div class='search-icon'>
+                   <i class="fas fa-search"></i>
+                </div>
+
+                <input class ='search-box' type='text' placeholder="Hi! I'm Atardilla :)">
+                
+                <div class='mic-button'>
+                   <i class="fas fa-microphone"></i>
+                </div>
+            </div>
+
+            <div class='two bottons'>
+              <button class='google-search'>Goole Search</button>
+              <button class='im-feeling-lucky'>I'm Feeling Lucky</button>
+            </div>
         </form>
-
-        <div class='two bottons'>
-           <botton class='google-search'>Goole Search</botton>
-           <botton class='im-feeling-lucky'>I'm Feeling Lucky</botton>
-        </div>
-
     </main>
 
 
@@ -49,16 +62,16 @@
 
         <div class='footer-left'>
           <ul class='footer-left-ul'>
-              <li>Advertising</li>
-              <li>Business</li>
-              <li>How Search works</li>
+              <li class='hover'>Advertising</li>
+              <li class='hover'>Business</li>
+              <li class='hover'>How Search works</li>
           </ul>
         </div>
         <div class='footer-right'>
             <ul class='footer-right-ul'>
-              <li>Privacy</li>
-              <li>Terms</li>
-              <li>Settings</li>
+              <li class='hover'>Privacy</li>
+              <li class='hover'>Terms</li>
+              <li class='hover'>Settings</li>
             </ul>
         </div>
 
